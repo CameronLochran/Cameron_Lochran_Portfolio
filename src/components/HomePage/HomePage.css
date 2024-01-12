@@ -1,0 +1,16 @@
+div.home-page-container{
+  padding: 18px 0;
+  position: fixed;
+  width: 100%; 
+}
+
+body{
+  background-image: url("../images/abstract-luxury-blur-grey-color-gradient-used-as-background-studio-wall-display-your-products_1258-52609.jpg.avif");
+}
+
+a:hover{
+  background-color: rgb(93, 93, 93);
+  color: azure;
+  padding: 11px;
+  border-radius: 25px;
+}
