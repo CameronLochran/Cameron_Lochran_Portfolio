@@ -1,0 +1,27 @@
+div.my-projects-header {
+  animation: fadeIn 2s;
+  font-size: 35px;
+  font-family: Arial;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+div#projects {
+  animation: fadeIn 5s;
+}
+
+div.project-image {
+  border-color: black;
+  border-radius: 1%;
+}
+
+div.projects {
+  display: inline-block;
+}

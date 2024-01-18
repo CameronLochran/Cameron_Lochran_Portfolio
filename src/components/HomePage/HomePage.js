@@ -9,11 +9,13 @@ const Home = () => {
         </head>
 
         <center>
-          <div className="header">
+          <div className="head">
             <header>
+              
+            </header>
+            
               <h1>Welcome!</h1>
               <h2>What would you like to see first of me?</h2>
-            </header>
           </div>
 
           <h3>

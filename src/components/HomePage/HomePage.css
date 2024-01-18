@@ -4,12 +4,20 @@ div.home-page-container{
   width: 100%; 
 }
 
+header{
+  background-color: rgb(1, 1, 99);
+}
+
 body{
-  background-image: url("../images/abstract-luxury-blur-grey-color-gradient-used-as-background-studio-wall-display-your-products_1258-52609.jpg.avif");
+  background-color: azure;
+}
+
+footer{
+  background-color: rgb(1, 1, 99);
 }
 
 a:hover{
-  background-color: rgb(93, 93, 93);
+  background-color: grey;
   color: azure;
   padding: 11px;
   border-radius: 25px;
