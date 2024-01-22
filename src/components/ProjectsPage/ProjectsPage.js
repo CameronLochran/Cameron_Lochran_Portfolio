@@ -1,26 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./ProjectPage.css";
 import blackJackImage from "./Images/blackjack.jpg";
 import wiggleWaggyWalksImage from "./Images/Screenshot 2024-01-17 at 16.05.51.png";
-// import Popup from "react-popup";
-import BlackJackCarousel from "./SkillsPopUpBlackjack"
-// import { Carousel } from "react-responsive-3d-carousel"
-// import { useNavigate } from "react-router-dom"
-// import jsLogo from "./Images/javascript-logo.png"
-// import reactLogo from "./Images/reactLogo.jpeg"
+import BlackJackCarousel from "./SkillsCarouselBlackjack"
+
 
 
 const ProjectsPage = () => {
-
-  // const [buttonPopup, setButtonPopup] = useState(false)
-  // const [timedPopup, setTimedPopup] = useState(false)
-
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     setTimedPopup(true);
-  //   }, 3000);
-  // }, [])
-    
   return (
     <>
       <div></div>
@@ -41,14 +27,10 @@ const ProjectsPage = () => {
           />
           <h5>Group Project</h5>
           
-          <BlackJackCarousel/>
-          {/* <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
-            <h3>Technologies:</h3>
-          </Popup>
-
-          <Popup trigger={timedPopup} setTrigger={setTimedPopup}>
-            <h3>Technologies:</h3>
-          </Popup> */}
+          <div id="carousel-blackjack">
+            <BlackJackCarousel/>
+          </div>
+         
         </div>
 
         {/* End of blackjack project code */}

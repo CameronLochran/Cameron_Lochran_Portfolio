@@ -1,5 +1,4 @@
 import { Carousel } from "react-responsive-3d-carousel";
-import { useNavigate } from "react-router-dom";
 import jsLogo from "./Images/javascript-logo.png";
 import reactLogo from "./Images/reactLogo.jpeg";
 import htmlLogo from "./Images/HTML_logo.png";
@@ -8,21 +7,9 @@ import expressLogo from "./Images/Express.png";
 import mongodbLogo from "./Images/mongoDB_Logo.png";
 import nodejsLogo from "./Images/nodeJS_Logo.jpeg";
 
-// function SkillsPopUpBlackjack(props) {
-//   return (props.trigger) ? (
-//     <div className="popup">
-//       <div className="popup-inner">
-//         <button className="close-btn" onClick={() => props.setTrigger(false)}>close</button>
-//         { props.children }
-//       </div>
-//     </div>
-//   ) : ""
-// }
-
-// export default SkillsPopUpBlackjack
-
 const BlackJackCarousel = ({ onImageClick }) => {
-  // const navigate = useNavigate();
+
+  
 
   const skills = [
     {
@@ -66,9 +53,9 @@ const BlackJackCarousel = ({ onImageClick }) => {
     <div id="carousel-container">
       <Carousel autoPlay={false} showIndicators={false} showStatus={false}>
         {skills.map(({ name, image, skillImgTxt }) => (
-          <div id="carousel-image">
+          <div id="country-image" >
             <p>{name}</p>
-            <img src={image} alt={skillImgTxt} />
+           <img src={image} alt={skillImgTxt}/>
           </div>
         ))}
       </Carousel>
