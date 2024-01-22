@@ -4,8 +4,6 @@ import blackJackImage from "./Images/blackjack.jpg";
 import wiggleWaggyWalksImage from "./Images/Screenshot 2024-01-17 at 16.05.51.png";
 import BlackJackCarousel from "./SkillsCarouselBlackjack"
 
-
-
 const ProjectsPage = () => {
   return (
     <>
