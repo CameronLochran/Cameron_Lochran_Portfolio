@@ -6,14 +6,12 @@ import BlackJackCarousel from "./SkillsCarouselBlackjack"
 
 const ProjectsPage = () => {
   return (
-    <>
-      <div></div>
-
+    <div className="whole-file">
       <div className="my-projects-header" id="my-projects-header">
         <h1>My Projects</h1>
       </div>
 
-      <div className="projects" id="projects">
+      {/* <div className="projects" id="projects"> */}
         {/* start of blackjack project code */}
         <div id="blackjack-project">
           <h3>BlackJack Project</h3>
@@ -26,7 +24,9 @@ const ProjectsPage = () => {
           <h5>Group Project</h5>
           
           <div id="carousel-blackjack">
-            <BlackJackCarousel/>
+            <center>
+              <BlackJackCarousel/>
+            </center>
           </div>
          
         </div>
@@ -34,7 +34,7 @@ const ProjectsPage = () => {
         {/* End of blackjack project code */}
 
         {/* Start of wiggle waggy walks project code */}
-        <div id="wiggle waggy walks">
+        <div id="wiggle-waggy-walks">
           <br />
           <br />
 
@@ -50,7 +50,7 @@ const ProjectsPage = () => {
         </div>
         {/* End of wiggle waggy walks project code */}
       </div>
-    </>
+    // </div>
   );
 };
 export default ProjectsPage;
