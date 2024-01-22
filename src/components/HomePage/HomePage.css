@@ -1,22 +1,24 @@
-div.home-page-container{
+div.home-page-container {
   padding: 18px 0;
   position: fixed;
-  width: 100%; 
+  width: 100%;
 }
 
-header{
+header {
   background-color: rgb(1, 1, 99);
+  margin: 0;
+  padding: 1rem;
 }
 
-body{
+body {
   background-color: azure;
 }
 
-footer{
-  background-color: rgb(1, 1, 99);
+footer {
+  background-color: rgb(4, 4, 161);
 }
 
-a:hover{
+a:hover {
   background-color: grey;
   color: azure;
   padding: 11px;

@@ -22,6 +22,6 @@ div.project-image {
   border-radius: 1%;
 }
 
-div.projects {
+div#projects {
   display: inline-block;
 }

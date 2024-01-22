@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from '../components/HomePage/HomePage';
 import ProjectsPage from '../components/ProjectsPage/ProjectsPage';
 
+
 const MainContainer = () => {
   return (
     <>
