@@ -1,11 +1,12 @@
 import { Carousel } from "react-responsive-3d-carousel";
-import jsLogo from "./Images/javascript.png"
+import jsLogo from "./Images/javascript.png";
 import reactLogo from "./Images/reactJsLogo.png";
 import htmlLogo from "./Images/HTML_logo.png";
 import cssLogo from "./Images/CSS_Logo.png";
-import expressLogo from "./Images/express.png"
+import expressLogo from "./Images/express.png";
 import mongodbLogo from "./Images/mongoDB_Logo.png";
 import nodejsLogo from "./Images/node-js.png";
+// import Popup from "react-popup";
 import "./BlackJackCarousel.css";
 
 const BlackJackCarousel = ({ onImageClick }) => {
@@ -52,8 +53,17 @@ const BlackJackCarousel = ({ onImageClick }) => {
       <Carousel autoPlay={false} showIndicators={false} showStatus={false}>
         {skills.map(({ name, image, skillImgTxt }) => (
           <div id="carousel-image">
-            <p>{name}</p>
-            <img className="img" src={image} alt={skillImgTxt} width="200px" color="navy"/>
+            <p>
+              <strong>{name}</strong>
+            </p>
+            <img
+              className="img"
+              src={image}
+              alt={skillImgTxt}
+              width="150px"
+              color="navy"
+              font-family="Times New Roman"
+            />
           </div>
         ))}
       </Carousel>

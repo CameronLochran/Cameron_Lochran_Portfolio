@@ -2,12 +2,14 @@ div.whole-file{
   background-color: rgb(217, 217, 221);
   margin: 0;
   padding: 0;
+  border: 0;
 }
   div.my-projects-header {
     animation: fadeIn 5s;
     font-size: 35px;
     font-family: Arial;
     background-color: rgb(217, 217, 221);
+    padding: 10px;
   }
 
   @keyframes fadeIn {
@@ -36,11 +38,15 @@ div.whole-file{
     display: inline-block;
   }
   div#carousel-blackjack{
-    padding: 3rem;
+    padding: 2rem;
     position: relative;
     background-color: rgb(217, 217, 221);
   }
 
   div#wiggle-waggy-walks{
     background-color: rgb(217, 217, 221);
+  }
+
+  div#carousel-blackjack{
+    font-size: 30px;
   }
