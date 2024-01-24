@@ -6,7 +6,6 @@ import cssLogo from "./Images/CSS_Logo.png";
 import expressLogo from "./Images/express.png";
 import mongodbLogo from "./Images/mongoDB_Logo.png";
 import nodejsLogo from "./Images/node-js.png";
-// import Popup from "react-popup";
 import "./BlackJackCarousel.css";
 
 const BlackJackCarousel = ({ onImageClick }) => {
@@ -54,16 +53,23 @@ const BlackJackCarousel = ({ onImageClick }) => {
         {skills.map(({ name, image, skillImgTxt }) => (
           <div id="carousel-image">
             <p>
-              <strong>{name}</strong>
+              <center>
+                <br/>
+                <strong>{name}</strong>
+                <br/>
+              </center>
             </p>
-            <img
+            <center>
+              <img
               className="img"
               src={image}
               alt={skillImgTxt}
-              width="150px"
+              width="175px"
               color="navy"
-              font-family="Times New Roman"
+              justify-content="center"
             />
+            </center>
+            
           </div>
         ))}
       </Carousel>

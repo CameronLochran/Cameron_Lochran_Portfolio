@@ -11,6 +11,7 @@
   border: none;
   border-radius: 50%;
   height: 75%;
+  justify-content: center;
   
 }
 
@@ -41,7 +42,8 @@
   position: relative;
 }
 
-div.react-responsive-3d-carousel__carousel{  
+div.react-responsive-3d-carousel__carousel{
+  justify-content: center;  
   width: 800px;
   height:auto;
   background-color: rgb(217, 217, 221);
