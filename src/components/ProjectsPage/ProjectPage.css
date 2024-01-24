@@ -1,14 +1,15 @@
 div.whole-file{
-
   margin: 0;
   padding: 0;
   border: 0;
 }
+
 div.my-projects-title {
     animation: fadeIn 5s;
     font-size: 35px;
     font-family: Arial;
     padding: 10px;
+    position: relative;
 }
 
 @keyframes fadeIn {
@@ -39,10 +40,6 @@ div.my-projects-title {
   div#carousel-blackjack{
     padding: 2rem;
     position: relative;
-  }
-
-  div#wiggle-waggy-walks{
-    
   }
 
   div#carousel-blackjack{

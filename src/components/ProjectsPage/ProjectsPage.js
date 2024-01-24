@@ -2,8 +2,11 @@ import React from "react";
 import "./ProjectPage.css";
 import blackJackImage from "./Blackjack_project/Images/blackjack.jpg";
 import wiggleWaggyWalksImage from "./WiggleWaggyWalks/Images/wigglewaggywalks.png";
-import PopupCarousel from "./Popup";
+import PopupCarousel from "./Blackjack_project/Popup";
 import WWWPopupCarousel from "./WiggleWaggyWalks/Popup";
+import pythonProjectImage from "./PythonProject/Images/Screenshot 2024-01-24 at 18.26.55.png";
+import SpendingTrackerCarousel from "./PythonProject/SpendingTrackerCarousel";
+import STPopup from "./PythonProject/Popup";
 
 const ProjectsPage = () => {
   return (
@@ -26,7 +29,6 @@ const ProjectsPage = () => {
           <center>
             <span className="wrap">
               <PopupCarousel />
-              {/* <b>{text}</b> */}
               <br />
             </span>
           </center>
@@ -45,20 +47,45 @@ const ProjectsPage = () => {
             width="550px"
             height="300px"
           />
-          <br/>
+          <br />
           <h3>Group Project</h3>
           <div id="carousel-blackjack">
-          <center>
-            <span className="wrap">
-          <br/>
-          <br/>
-          <WWWPopupCarousel/>
-          </span>
-          </center>
+            <center>
+              <span className="wrap">
+                <WWWPopupCarousel />
+              </span>
+              <br />
+              <br />
+            </center>
+          </div>
+        </div>
+
+        <div className="python-project">
+          <br />
+          <br />
+          <h3>Python Project</h3>
+          <div>
+            <img
+              src={pythonProjectImage}
+              alt="Python Project"
+              width="550px"
+              height="300px"
+            />
+            <br />
+            <h3>Group Project</h3>
+            <div id="carousel-blackjack">
+              <center>
+                <span className="wrap">
+                  <STPopup />
+                </span>
+                <br />
+                <br />
+              </center>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  )
-}
-
+  );
+};
 export default ProjectsPage;

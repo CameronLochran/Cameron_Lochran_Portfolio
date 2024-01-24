@@ -53,7 +53,7 @@ const WiggleWaggyWalksCarousel = () => {
           <div id="carousel-image">
             <p>
               <center>
-                <br />
+                <br/>
                 <strong>{name}</strong>
               </center>
             </p>

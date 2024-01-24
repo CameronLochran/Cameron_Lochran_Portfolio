@@ -45,6 +45,8 @@ div.react-responsive-3d-carousel__carousel{
   width: 800px;
   height:auto;
   background-color: rgb(217, 217, 221);
+  color: black;
+  
 }
 div.react-responsive-3d-carousel__carousel__item.shadow{
   border-radius: 50px;
@@ -55,4 +57,13 @@ div.react-responsive-3d-carousel__carousel{
   border-radius: 50px;
   box-shadow: inset 0 10px 25px grey;
   background-color: rgb(255, 255, 255);
+  opacity: 100%;
+}
+
+button.view-technologies{
+  background: none;
+  color: white;
+  border: none;
+  font-size: 20px;
+  font-family: Cambria, serif;
 }
