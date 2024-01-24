@@ -1,6 +1,6 @@
 import React from "react";
 import Popup from "reactjs-popup";
-import BlackJackCarousel from "./SkillsCarouselBlackjack";
+import BlackJackCarousel from "./Blackjack_project/SkillsCarouselBlackjack";
 
 const PopupCarousel = () => {
   return (

@@ -1,53 +1,14 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./ProjectPage.css";
-import blackJackImage from "./Images/blackjack.jpg";
-import wiggleWaggyWalksImage from "./Images/Screenshot 2024-01-17 at 16.05.51.png";
+import blackJackImage from "./Blackjack_project/Images/blackjack.jpg";
+import wiggleWaggyWalksImage from "./WiggleWaggyWalks/Images/wigglewaggywalks.png";
 import PopupCarousel from "./Popup";
+import WWWPopupCarousel from "./WiggleWaggyWalks/Popup";
 
 const ProjectsPage = () => {
-  const [isDeleting, setIsDeleting] = useState(0);
-  const [loopNum, setLoopNum] = useState(false);
-
-  const toRotate = ["Technologies Used:"];
-  const [text, setText] = useState("");
-  const [delta, setDelta] = useState(300 - Math.random() * 500);
-  const period = 2000;
-
-  useEffect(() => {
-    let ticker = setInterval(() => {
-      tick();
-    }, delta);
-
-    return () => {
-      clearInterval(ticker);
-    };
-  }, [text]);
-
-  const tick = () => {
-    let i = loopNum % toRotate.length;
-    let fullText = toRotate[i];
-    let updatedText = isDeleting
-      ? fullText.substring(0, text.length - 1)
-      : fullText.substring(0, text.length + 1);
-
-    setText(updatedText);
-
-    if (isDeleting) {
-      setDelta((prevDelta) => prevDelta / 2);
-    }
-
-    if (!isDeleting && updatedText === fullText) {
-      setIsDeleting(true);
-      setDelta(period);
-    } else if (isDeleting && updatedText === "") {
-      setIsDeleting(false);
-      setLoopNum(loopNum);
-      setDelta(3000);
-    }
-  };
   return (
     <div className="whole-file">
-      <div className="my-projects-header" id="my-projects-header">
+      <div className="my-projects-title" id="my-projects-title">
         <h1>My Projects</h1>
       </div>
 
@@ -64,20 +25,14 @@ const ProjectsPage = () => {
         <div id="carousel-blackjack">
           <center>
             <span className="wrap">
-              <b>{text}</b>
+              <PopupCarousel />
+              {/* <b>{text}</b> */}
+              <br />
             </span>
-            <PopupCarousel />
-            <br />
-            <br />
-
-            {/* <BlackJackCarousel /> */}
           </center>
         </div>
       </div>
 
-      {/* End of blackjack project code */}
-
-      {/* Start of wiggle waggy walks project code */}
       <div id="wiggle-waggy-walks">
         <br />
         <br />
@@ -90,11 +45,20 @@ const ProjectsPage = () => {
             width="550px"
             height="300px"
           />
+          <br/>
+          <h3>Group Project</h3>
+          <div id="carousel-blackjack">
+          <center>
+            <span className="wrap">
+          <br/>
+          <br/>
+          <WWWPopupCarousel/>
+          </span>
+          </center>
         </div>
       </div>
-      {/* End of wiggle waggy walks project code */}
     </div>
-    // </div>
-  );
-};
+  )
+}
+
 export default ProjectsPage;

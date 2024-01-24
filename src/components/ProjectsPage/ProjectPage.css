@@ -1,25 +1,24 @@
 div.whole-file{
-  background-color: rgb(217, 217, 221);
+
   margin: 0;
   padding: 0;
   border: 0;
 }
-  div.my-projects-header {
+div.my-projects-title {
     animation: fadeIn 5s;
     font-size: 35px;
     font-family: Arial;
-    background-color: rgb(217, 217, 221);
     padding: 10px;
-  }
+}
 
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
+  100% {
+  opacity: 1;
+  }
+}
 
   div#projects {
     animation: fadeIn 5s;
@@ -40,11 +39,10 @@ div.whole-file{
   div#carousel-blackjack{
     padding: 2rem;
     position: relative;
-    background-color: rgb(217, 217, 221);
   }
 
   div#wiggle-waggy-walks{
-    background-color: rgb(217, 217, 221);
+    
   }
 
   div#carousel-blackjack{
