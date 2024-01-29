@@ -7,6 +7,7 @@ import firebaseLogo from "./Images/firebase.png";
 import authenticationLogo from "./Images/Authentication.png";
 import imageUploadLogo from "./Images/Image Upload.png";
 import realTimeChatLogo from "./Images/Real-time Chat.png";
+import "./WiggleWaggyWalks.css"
 
 const WiggleWaggyWalksCarousel = () => {
   const skills = [

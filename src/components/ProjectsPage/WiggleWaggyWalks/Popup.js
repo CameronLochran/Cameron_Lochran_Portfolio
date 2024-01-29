@@ -6,7 +6,7 @@ const WWWPopupCarousel = () => {
   return (
     <Popup
       trigger={
-        <button className="view-technologies"> View Technologies </button>
+        <strong><button className="view-technologies"> View Technologies </button></strong>
       }
     >
       <div>

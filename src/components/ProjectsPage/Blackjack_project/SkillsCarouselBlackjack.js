@@ -65,7 +65,6 @@ const BlackJackCarousel = ({ onImageClick }) => {
               src={image}
               alt={skillImgTxt}
               width="175px"
-              color="navy"
               justify-content="center"
             />
             </center>

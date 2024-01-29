@@ -3,6 +3,7 @@ import pythonLogo from "./Images/python.png"
 import flaskLogo from "./Images/flask.png"
 import postgreSQLlogo from "./Images/postgresql.png"
 import { Carousel } from "react-responsive-3d-carousel";
+import "./PythonProject.css"
 
 const SpendingTrackerCarousel = () => {
 
