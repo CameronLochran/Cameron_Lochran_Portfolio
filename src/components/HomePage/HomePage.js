@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import MamaMiaCameron from "./Images/Mama_mia_cameron.png";
-import ThumbsUpCameron from"./Images/Thumbs_Up_Cameron.png"
+import ThumbsUpCameron from "./Images/Thumbs_Up_Cameron.png";
+import GHlogo from "./Images/GHlogo.png";
 import "./HomePage.css";
 
 const Home = () => {
@@ -53,35 +54,61 @@ const Home = () => {
 
         <center>
           <div className="head">
-            <header></header>
-
+            <header>
+              <a href="https://github.com/">
+                <img
+                  src={GHlogo}
+                  alt="Github Link"
+                  width="75px"
+                  className="github-logo"
+                />
+              </a>
+            </header>
+          </div>
+          <div className="body">
             <h1>Welcome!</h1>
             <h2>What would you like to see first of me?</h2>
             <br />
             <br />
-          </div>
-          <h3>
-            <a href="/projects">Projects, </a>
+            <h3>
+              <a href="/projects">Projects, </a>
+              <br />
+            </h3>
+            <h3>
+              <a href="/aboutme">About Me </a>
+              <br />
+            </h3>
+            <h3>&</h3>
+            <h3>
+              <a href="/contactpage">Ways To Contact Me</a>
+              <br />
+            </h3>
             <br />
-          </h3>
-          <h3>
-            <a href="/aboutme">About Me </a>
             <br />
-          </h3>
-          <h3>&</h3>
-          <h3>
-            <a href="/contactpage">Ways To Contact Me</a>
             <br />
-          </h3>
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <div className="rotating-text">
-            <strong>{text}</strong><br/><br/>
-            <img src={MamaMiaCameron} alt="Cameron being like mama mia" width="250px" height="auto"/>
-            <img src={ThumbsUpCameron} alt="Cameron's got his thumb up" width="250px" height="auto"/>
+            <br />
+            <br />
+            <div className="rotating-text">
+              <strong>{text}</strong>
+              <br />
+              <br />
+              <div className="images-of-ios-cameron">
+                <img
+                  src={MamaMiaCameron}
+                  alt="Cameron being like mama mia"
+                  width="250px"
+                  height="auto"
+                  className="mama-mia-cameron"
+                />
+                <img
+                  src={ThumbsUpCameron}
+                  alt="Cameron's got his thumb up"
+                  width="250px"
+                  height="auto"
+                  className="thumbs-up"
+                />
+              </div>
+            </div>
           </div>
         </center>
       </div>

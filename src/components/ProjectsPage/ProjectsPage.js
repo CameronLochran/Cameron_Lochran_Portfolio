@@ -6,13 +6,21 @@ import PopupCarousel from "./Blackjack_project/Popup";
 import WWWPopupCarousel from "./WiggleWaggyWalks/Popup";
 import pythonProjectImage from "./PythonProject/Images/Screenshot 2024-01-24 at 18.26.55.png";
 import STPopup from "./PythonProject/Popup";
+import HomeIcon from "../HomePage/Images/Home_Icon.jpeg";
 
 const ProjectsPage = () => {
   return (
     <div className="whole-file">
       <header>
         <center>
-          <a href="/">Home</a>
+          <a href="/">
+            <img
+              src={HomeIcon}
+              alt="Home Icon"
+              width="150px"
+              className="home-icon"
+            />
+          </a>
         </center>
       </header>
       <div className="my-projects-title" id="my-projects-title">

@@ -6,20 +6,12 @@ div.whole-file {
 }
 
 header {
-  background-color: rgb(0, 21, 40);
+  background-color: rgb(0, 0, 0);
   padding: 4%;
-
-  a.home-link{
-    margin-right: 50px;
-  }
-
-  a.about-me-link{
-    margin-right: 50px;
-  }
 }
 
 body{
-  background-color: rgb(12, 27, 40);
+  background-color: rgb(0, 21, 40);
   color: whitesmoke;
 }
 
@@ -70,4 +62,8 @@ footer{
   bottom: 0;
   background-color: rgb(0, 26, 48);
   padding: 4%;
+}
+
+.home-icon{
+  border-radius: 50px;
 }
