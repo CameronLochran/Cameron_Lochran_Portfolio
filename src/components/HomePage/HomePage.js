@@ -54,7 +54,7 @@ const Home = () => {
 
         <center>
           <div className="head">
-            <header>
+            <header className="home-page-header">
               <a href="https://github.com/">
                 <img
                   src={GHlogo}
@@ -71,16 +71,16 @@ const Home = () => {
             <br />
             <br />
             <h3>
-              <a href="/projects">Projects, </a>
+              <a href="/projects" className="links-to-other-pages">Projects, </a>
               <br />
             </h3>
             <h3>
-              <a href="/aboutme">About Me </a>
+              <a href="/aboutme" className="links-to-other-pages">About Me </a>
               <br />
             </h3>
             <h3>&</h3>
             <h3>
-              <a href="/contactpage">Ways To Contact Me</a>
+              <a href="/contactpage" className="links-to-other-pages">Ways To Contact Me</a>
               <br />
             </h3>
             <br />

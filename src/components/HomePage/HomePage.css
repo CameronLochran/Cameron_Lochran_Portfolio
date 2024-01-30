@@ -2,6 +2,11 @@ body{
   animation: fadeIn 5s;
 }
 
+.home-page-header{
+  background-color: black;
+  padding: 4%;
+}
+
 a:hover {
   color: azure;
   padding: 11px;
@@ -30,4 +35,9 @@ a:hover {
 
 .github-logo{
   border-radius: 50px;
+}
+
+.links-to-other-pages:hover{
+  background-color: white;
+  color: black;
 }

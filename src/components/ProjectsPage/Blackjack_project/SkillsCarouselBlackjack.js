@@ -5,7 +5,7 @@ import htmlLogo from "./Images/HTML_logo.png";
 import cssLogo from "./Images/CSS_Logo.png";
 import expressLogo from "./Images/express.png";
 import mongodbLogo from "./Images/mongoDB_Logo.png";
-import nodejsLogo from "./Images/node-js.png"
+import nodejsLogo from "./Images/node-js.png";
 import "./BlackJackCarousel.css";
 
 const BlackJackCarousel = ({ onImageClick }) => {
@@ -54,21 +54,18 @@ const BlackJackCarousel = ({ onImageClick }) => {
           <div id="carousel-image">
             <p>
               <center>
-                <br/>
-                <strong>{name}</strong>
-                
+                <br />
               </center>
             </p>
             <center>
               <img
-              className="img"
-              src={image}
-              alt={skillImgTxt}
-              width="175px"
-              justify-content="center"
-            />
+                className="img"
+                src={image}
+                alt={skillImgTxt}
+                width="175px"
+                justify-content="center"
+              />
             </center>
-            
           </div>
         ))}
       </Carousel>

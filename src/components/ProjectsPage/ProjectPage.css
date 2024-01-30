@@ -5,9 +5,9 @@ div.whole-file {
   animation: fadeIn 5s;
 }
 
-header {
+.projects-header {
   background-color: rgb(0, 0, 0);
-  padding: 4%;
+  padding: 2%;
 }
 
 body{

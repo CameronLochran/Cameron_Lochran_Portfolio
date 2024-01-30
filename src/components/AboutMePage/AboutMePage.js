@@ -4,10 +4,12 @@ import "./AboutMePage.css";
 const AboutMePage = () => {
   return (
     <>
-      <div className="about-me-page">
-        <center>
-          <h1>About Me</h1>
-        </center>
+      <div className="header">
+        <header>
+          <center>
+            <h1>About Me</h1>
+          </center>
+        </header>
       </div>
     </>
   );

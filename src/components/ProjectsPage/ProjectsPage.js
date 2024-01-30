@@ -11,7 +11,7 @@ import HomeIcon from "../HomePage/Images/Home_Icon.jpeg";
 const ProjectsPage = () => {
   return (
     <div className="whole-file">
-      <header>
+      <header className="projects-header">
         <center>
           <a href="/">
             <img
