@@ -1,4 +1,13 @@
-div.about-me-page{
+.about-me-header{
     background-color: rgb(0, 0, 0);
-    padding: 1em;
+    padding: 4%;
+}
+
+.fact-one{
+    background-color: rgb(232, 232, 232);
+    padding: 5%;
+    border-radius: 50px;
+    width: 1000px;
+    color: black;
+    font-size: 30px;
 }
