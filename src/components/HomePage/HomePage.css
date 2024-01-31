@@ -1,4 +1,4 @@
-body{
+.home-page-container{
   animation: fadeIn 5s;
 }
 
@@ -8,10 +8,10 @@ body{
 }
 
 a:hover {
-  color: azure;
+  /* color: azure; */
   padding: 11px;
   border-radius: 25px;
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
 }
 
 .rotating-text{
@@ -40,4 +40,31 @@ a:hover {
 .links-to-other-pages:hover{
   background-color: white;
   color: black;
+  text-decoration: none;
+}
+
+.links-to-other-pages{
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.home-page-footer{
+  background-color: rgb(0, 18, 33);
+}
+
+.footer-link:hover{
+  color: yellow;
+  text-decoration: none;
+  margin-left: 0px;
+}
+
+.footer-link{
+  color: yellow;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.about-me-h3{
+  font-size: 35px;
+  font-family: 'Roboto' 'sans-serif';
 }

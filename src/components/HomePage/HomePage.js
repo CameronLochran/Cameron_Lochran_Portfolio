@@ -59,7 +59,7 @@ const Home = () => {
                 <img
                   src={GHlogo}
                   alt="Github Link"
-                  width="75px"
+                  width="50px"
                   className="github-logo"
                 />
               </a>
@@ -71,16 +71,22 @@ const Home = () => {
             <br />
             <br />
             <h3>
-              <a href="/projects" className="links-to-other-pages">Projects, </a>
+              <a href="/projects" className="links-to-other-pages">
+                Projects,{" "}
+              </a>
               <br />
             </h3>
             <h3>
-              <a href="/aboutme" className="links-to-other-pages">About Me </a>
+              <a href="/aboutme" className="links-to-other-pages">
+                About Me{" "}
+              </a>
               <br />
             </h3>
-            <h3>&</h3>
+            <h3>Or</h3>
             <h3>
-              <a href="/contactpage" className="links-to-other-pages">Ways To Contact Me</a>
+              <a href="/contactpage" className="links-to-other-pages">
+                Ways To Contact Me
+              </a>
               <br />
             </h3>
             <br />
@@ -110,6 +116,19 @@ const Home = () => {
               </div>
             </div>
           </div>
+          <footer className="home-page-footer">
+            <p>
+              <strong>
+                Interested in the code for my portfolio? Click
+                <a
+                  href="https://github.com/CameronLochran/Cameron_Lochran_Portfolio"
+                  className="footer-link"
+                >
+                  here
+                </a>
+              </strong>
+            </p>
+          </footer>
         </center>
       </div>
     </>

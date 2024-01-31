@@ -6,7 +6,6 @@ import cssLogo from "./Images/CSS_Logo.png";
 import expressLogo from "./Images/express.png";
 import mongodbLogo from "./Images/mongoDB_Logo.png";
 import nodejsLogo from "./Images/node-js.png";
-import "./BlackJackCarousel.css";
 
 const BlackJackCarousel = ({ onImageClick }) => {
   const skills = [

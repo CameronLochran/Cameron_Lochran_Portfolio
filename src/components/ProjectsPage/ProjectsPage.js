@@ -94,6 +94,19 @@ const ProjectsPage = () => {
           </div>
         </div>
       </div>
+      <footer className="home-page-footer">
+        <p>
+          <strong>
+            Interested in the code for my portfolio? Click
+            <a
+              href="https://github.com/CameronLochran/Cameron_Lochran_Portfolio"
+              className="footer-link"
+            >
+              here
+            </a>
+          </strong>
+        </p>
+      </footer>
     </div>
   );
 };
