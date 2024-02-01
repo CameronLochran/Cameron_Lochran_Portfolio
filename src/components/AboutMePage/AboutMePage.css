@@ -5,7 +5,7 @@
 
 .fact {
   background-color: rgb(232, 232, 232);
-  padding: 0.5%;
+  padding: 1%;
   border-radius: 50px;
   width: 900px;
   color: black;
@@ -15,4 +15,25 @@
 
 .codeclan-grad-para{
     margin-right: 5px;
+}
+
+.OOP{
+    margin-left: 4px;
+}
+
+.CityOfGlasgowCollege{
+    margin-left: 4px;
+}
+
+.Level6-SofwareDev{
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.skills{
+    margin-left: 4px;
+}
+
+.variety{
+    margin-left: 4px;
 }

@@ -31,12 +31,13 @@ const AboutMePage = () => {
             <Fade left>
               <div className="fact">
                 <p>
-                  <strong className="codeclan-grad-para">
-                    Software Developemnt Bootcamp Student Graduate
-                  </strong>
-                  by
-                  <strong> CodeClan/CodeBase</strong> and graduated on 16th
-                  November 2023
+                  I'm a <strong>Software Developer</strong> based in
+                  <strong className="variety">Glasgow</strong> who has
+                  experience building
+                  <strong className="variety">Full-Stack</strong> Applications
+                  using a different
+                  <strong className="variety">variety</strong> of languages and
+                  <strong className="variety">frameworks</strong>.
                 </p>
               </div>
             </Fade>
@@ -44,10 +45,12 @@ const AboutMePage = () => {
             <Fade right>
               <div className="fact">
                 <p>
-                  Have being coding all throughout high school and decided to
-                  advance my knowledge by deciding to enroll in
-                  <strong>City Of Glasgow College</strong> to do a
-                  <strong>SCQF Level 6 Software Developement</strong>
+                  <strong className="codeclan-grad-para">
+                    Software Developemnt Bootcamp Student Graduate
+                  </strong>
+                  by
+                  <strong> CodeClan/CodeBase</strong> and graduated on 16th
+                  November 2023.
                 </p>
               </div>
             </Fade>
@@ -55,15 +58,58 @@ const AboutMePage = () => {
             <Fade left>
               <div className="fact">
                 <p>
-                  Competent in numerous Languages, frameworks and <strong>OOP. </strong>
-                  Recognisable experience in
-                  <strong>
-                    Python, Java, JavaScript, also Node.js, React, Flask and
-                    Spring
+                  Have being coding all throughout high school and decided to
+                  advance my knowledge by deciding to enroll in
+                  <strong className="CityOfGlasgowCollege">
+                    City Of Glasgow College
+                  </strong>{" "}
+                  to do a
+                  <strong className="Level6-SofwareDev">
+                    SCQF Level 6 Software Developement
+                  </strong>
+                  course.
+                </p>
+              </div>
+            </Fade>
+            <br />
+            <Fade right>
+              <div className="fact">
+                <p>
+                  Excellent{" "}
+                  <strong className="communication-skills">
+                    verbal and written communication
+                  </strong>{" "}
+                  skills along with my{" "}
+                  <strong className="interpersonal-abilities">
+                    strong interpersonal abilities cultivated in a teams
+                    environment.
                   </strong>
                 </p>
               </div>
             </Fade>
+            <br />
+            <Fade left>
+              <div className="fact">
+                I am an <strong>eager and enthusiastic</strong> learner and love
+                to <strong>demonstrate</strong> my learnings through projects
+                and constantly progress.
+              </div>
+            </Fade>
+            <br />
+            <Fade right>
+              <div className="fact">
+                <p>
+                  Competent in numerous Languages, frameworks and
+                  <strong className="OOP">OOP. </strong>
+                  Recognisable experience in
+                  <strong className="skills">
+                    Python, Java, JavaScript, also Node.js, React, Flask and
+                    Spring, SpringBoot
+                  </strong>
+                </p>
+              </div>
+            </Fade>
+            <br />
           </center>
         </div>
         <footer className="home-page-footer">
