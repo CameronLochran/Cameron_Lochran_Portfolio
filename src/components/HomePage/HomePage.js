@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import MamaMiaCameron from "./Images/Mama_mia_cameron.png";
 import ThumbsUpCameron from "./Images/Thumbs_Up_Cameron.png";
 import GHlogo from "./Images/GHlogo.png";
+import ContactPopup from "./Popup";
 import "./HomePage.css";
 
 const Home = () => {
@@ -84,9 +85,7 @@ const Home = () => {
             </h3>
             <h3>Or</h3>
             <h3>
-              <a href="/contactpage" className="links-to-other-pages">
-                Ways To Contact Me
-              </a>
+              <ContactPopup/>
               <br />
             </h3>
             <br />
