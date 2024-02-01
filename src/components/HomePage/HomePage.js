@@ -53,19 +53,14 @@ const Home = () => {
           <title>Cameron Lochran</title>
         </head>
 
+        <div className="head">
+          <header className="home-page-header">
+            <h1 className="home-page-header">
+              <strong className="home-page-header">Cameron Lochran</strong>
+            </h1>
+          </header>
+        </div>
         <center>
-          <div className="head">
-            <header className="home-page-header">
-              <a href="https://github.com/">
-                <img
-                  src={GHlogo}
-                  alt="Github Link"
-                  width="50px"
-                  className="github-logo"
-                />
-              </a>
-            </header>
-          </div>
           <div className="body">
             <h1>Welcome!</h1>
             <h2>What would you like to see first of me?</h2>
@@ -85,7 +80,7 @@ const Home = () => {
             </h3>
             <h3>Or</h3>
             <h3>
-              <ContactPopup/>
+              <ContactPopup />
               <br />
             </h3>
             <br />

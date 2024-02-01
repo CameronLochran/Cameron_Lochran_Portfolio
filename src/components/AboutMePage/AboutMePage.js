@@ -110,6 +110,8 @@ const AboutMePage = () => {
               </div>
             </Fade>
             <br />
+            <br/>
+            <br/>
           </center>
         </div>
         <footer className="home-page-footer">
