@@ -53,6 +53,7 @@ const BlackJackCarousel = ({ onImageClick }) => {
           <div id="carousel-image">
             <p>
               <center>
+                <strong>{name}</strong>
                 <br />
               </center>
             </p>
