@@ -4,9 +4,9 @@ import javaImage from "./Images/java.png";
 import reactLogo from "../Blackjack_project/Images/reactJsLogo.png";
 import springLogo from "./Images/spring-boot.png";
 import firebaseLogo from "./Images/firebase.png";
-import authenticationLogo from "./Images/Authentication.png";
-import imageUploadLogo from "./Images/Image Upload.png";
-import realTimeChatLogo from "./Images/Real-time Chat.png";
+import authenticationLogo from "./Images/AuthLogo.png";
+import imageUploadLogo from "./Images/ImageUploadIcon.png";
+import realTimeChatLogo from "./Images/Real-timeChatLogo.webp"
 
 const WiggleWaggyWalksCarousel = () => {
   const skills = [
