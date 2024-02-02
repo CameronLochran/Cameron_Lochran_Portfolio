@@ -2,6 +2,8 @@ import React from 'react'
 import pythonLogo from "./Images/python.png"
 import flaskLogo from "./Images/flask.png"
 import postgreSQLlogo from "./Images/postgresql.png"
+import htmlLogo from "../Blackjack_project/Images/HTML_logo.png"
+import cssLogo from "../Blackjack_project/Images/CSS_Logo.png"
 import { Carousel } from "react-responsive-3d-carousel";
 import "./PythonProject.css"
 
@@ -23,6 +25,16 @@ const SpendingTrackerCarousel = () => {
             image: postgreSQLlogo,
             skillImgTxt: "PostgreSQL Logo"
         },
+        {
+          name: "HTML",
+          image: htmlLogo,
+          skillImgTxt: "HTML Logo"
+        },
+        {
+          name: "CSS",
+          image: cssLogo,
+          skillImgTxt: "CSS Logo"
+        }
     ]
   return (
     <div id="carousel-container">

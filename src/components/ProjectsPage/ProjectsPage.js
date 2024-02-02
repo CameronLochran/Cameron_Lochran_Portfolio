@@ -4,7 +4,7 @@ import blackJackImage from "./Blackjack_project/Images/blackjack.jpg";
 import wiggleWaggyWalksImage from "./WiggleWaggyWalks/Images/wigglewaggywalks.png";
 import PopupCarousel from "./Blackjack_project/Popup";
 import WWWPopupCarousel from "./WiggleWaggyWalks/Popup";
-import pythonProjectImage from "./PythonProject/Images/Screenshot 2024-01-24 at 18.26.55.png";
+import pythonProjectImage from "./PythonProject/Images/TRAX_SPENDING_TRACKER.png";
 import STPopup from "./PythonProject/Popup";
 import HomeIcon from "../HomePage/Images/Home_Icon.png";
 
