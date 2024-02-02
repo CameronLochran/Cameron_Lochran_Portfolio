@@ -58,13 +58,13 @@ a:hover {
 .footer-link:hover {
   color: yellow;
   text-decoration: none;
-  margin-left: 0px;
+  /* margin-left: 0px; */
 }
 
 .footer-link {
   color: yellow;
   text-decoration: none;
-  margin-left: 5px;
+  /* margin-left: 5px; */
 }
 
 .about-me-h3 {

@@ -1,6 +1,6 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
-import HomeIcon from "../HomePage/Images/Home_Icon.jpeg";
+import HomeIcon from "../HomePage/Images/Home_Icon.png";
 import "./AboutMePage.css";
 
 const AboutMePage = () => {
@@ -13,7 +13,7 @@ const AboutMePage = () => {
               <img
                 src={HomeIcon}
                 alt="Home Icon"
-                width="150px"
+                width="100px"
                 className="home-icon"
               />
             </a>

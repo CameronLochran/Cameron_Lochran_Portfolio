@@ -6,7 +6,7 @@ import PopupCarousel from "./Blackjack_project/Popup";
 import WWWPopupCarousel from "./WiggleWaggyWalks/Popup";
 import pythonProjectImage from "./PythonProject/Images/Screenshot 2024-01-24 at 18.26.55.png";
 import STPopup from "./PythonProject/Popup";
-import HomeIcon from "../HomePage/Images/Home_Icon.jpeg";
+import HomeIcon from "../HomePage/Images/Home_Icon.png";
 
 const ProjectsPage = () => {
   return (
@@ -17,7 +17,7 @@ const ProjectsPage = () => {
             <img
               src={HomeIcon}
               alt="Home Icon"
-              width="150px"
+              width="100px"
               className="home-icon"
             />
           </a>
@@ -102,7 +102,7 @@ const ProjectsPage = () => {
               href="https://github.com/CameronLochran/Cameron_Lochran_Portfolio"
               className="footer-link"
             >
-              here
+            here
             </a>
           </strong>
         </p>

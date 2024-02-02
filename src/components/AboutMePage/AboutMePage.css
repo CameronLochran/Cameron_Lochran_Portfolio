@@ -1,6 +1,6 @@
 .about-me-header {
   background-color: rgb(0, 18, 33);
-  padding: 1%;
+  padding: 3%;
 }
 
 .fact {
@@ -36,4 +36,8 @@
 
 .variety{
     margin-left: 4px;
+}
+
+.footer-link{
+    margin-left: 5px;
 }
