@@ -82,7 +82,7 @@ const ProjectsPage = () => {
             height="300px"
           />
           <br />
-          <h3>Group Project</h3>
+          <h3>Solo Project</h3>
           <div id="carousel-blackjack">
             <center>
               <span className="wrap">
