@@ -1,5 +1,4 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
 import HomeIcon from "../HomePage/Images/Home_Icon.png";
 import "./AboutMePage.css";
 
@@ -28,7 +27,7 @@ const AboutMePage = () => {
         <br />
         <div className="about-me-info">
           <center>
-            <Fade left>
+            
               <div className="fact">
                 <p>
                   I'm a <strong>Software Developer</strong> based in
@@ -40,9 +39,9 @@ const AboutMePage = () => {
                   <strong className="variety">frameworks</strong>.
                 </p>
               </div>
-            </Fade>
+            
             <br />
-            <Fade right>
+            
               <div className="fact">
                 <p>
                   <strong className="codeclan-grad-para">
@@ -53,9 +52,9 @@ const AboutMePage = () => {
                   November 2023.
                 </p>
               </div>
-            </Fade>
+            
             <br />
-            <Fade left>
+            
               <div className="fact">
                 <p>
                   Have being coding all throughout high school and decided to
@@ -70,9 +69,9 @@ const AboutMePage = () => {
                   course.
                 </p>
               </div>
-            </Fade>
+            
             <br />
-            <Fade right>
+            
               <div className="fact">
                 <p>
                   Excellent{" "}
@@ -86,17 +85,17 @@ const AboutMePage = () => {
                   </strong>
                 </p>
               </div>
-            </Fade>
+            
             <br />
-            <Fade left>
+            
               <div className="fact">
                 I am an <strong>eager and enthusiastic</strong> learner and love
                 to <strong>demonstrate</strong> my learnings through projects
                 and constantly progress.
               </div>
-            </Fade>
+            
             <br />
-            <Fade right>
+            
               <div className="fact">
                 <p>
                   Competent in numerous Languages, frameworks and
@@ -108,7 +107,7 @@ const AboutMePage = () => {
                   </strong>
                 </p>
               </div>
-            </Fade>
+            
             <br />
             <br/>
             <br/>
