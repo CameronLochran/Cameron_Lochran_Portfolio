@@ -36,3 +36,66 @@
     transform: rotate(360deg);
   }
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+ 
+/* Heading styles */
+h1 {
+  font-size: 4vw; /* Font size will adjust based on viewport width */
+  text-align: center;
+}
+ 
+/* Box that auto-sizes */
+.box {
+  width: 80%;
+  height: 40vh; /* Height based on viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #333;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+ 
+.box h2 {
+  font-size: 2vw;
+  text-align: center;
+}
+ 
+/* Media Query for small screens (phones) */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 6vw;
+  }
+ 
+  .box {
+    width: 90%;
+    height: 30vh;
+  }
+ 
+  .box h2 {
+    font-size: 4vw;
+  }
+}
+ 
+/* Media Query for very small screens (portrait phones) */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 8vw;
+  }
+ 
+  .box {
+    width: 95%;
+    height: 25vh;
+  }
+ 
+  .box h2 {
+    font-size: 5vw;
+  }
+}
